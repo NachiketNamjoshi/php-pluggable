@@ -1,7 +1,10 @@
 <?php
 
 $GLOBALS['config'] = array(
-	'appPath' => 'app/',
+	'app' => array(
+		'path' => 'app/',
+		'index' => 'index.php'
+	),
 	'corePath' => 'core/',
 	'installed_plugs' => array(
 	),
